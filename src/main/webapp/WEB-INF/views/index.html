@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>这是姓名</title>
+</head>
+<body>
+hahahahaah
+{$userList}
+<ul>
+{foreach from=$userList item=user}
+	<li>{$user.id}</li>
+    <li>{$user.name}</li>
+{/foreach}
+</ul>
+</body>
+</html>
